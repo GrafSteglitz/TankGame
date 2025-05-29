@@ -1,0 +1,22 @@
+body{
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14pt;
+    font-style: normal;
+
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+
+}
+canvas{
+    border: 1px black;
+    background-color: black;
+    
+    /* display: inline; */
+}
+div.instructions{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}

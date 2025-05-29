@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Game</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="helpers.js" type="module"></script>
+    <script src="constructors.js" type="module"></script>
+    <script src="main.js" type="module"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="instructions">
+        <canvas width="960" height="960"></canvas>
+        <div>
+            <h2>Game Instructions</h2>
+            <p>Welcome to Tank Battle Royale! The aim of the game is to destroy the enemy tank by reducing its health to
+                zero.
+                The floating health bar above each tank shows how much damage has been inflicted. The game ends when your or the enemy tank's health
+                is reduced to zero.
+            </p>
+            <h3>Controls</h3>
+            <ul>
+                <li>Drive forward: <b>up</b> arrow</li>
+                <li>Drive backward: <b>down</b> arrow</li>
+                <li>Rotate left: <b>left</b> arrow</li>
+                <li>Rotate right: <b>right</b> arrow</li>
+                <li>Move turret: <b>"a"</b> / <a>"d"</a> keys</li>
+                <li>Fire: <b>space bar</b></li>
+            </ul>
+            <p>Press <b>p</b> to pause the game</p>
+            <h3>Cheat</h3>
+            <p>Press <b>h</b> to add 100 health!</p>
+        </div>
+    </div>
+    <p id="timer"></p>
+    <form>
+        <input id="stop" type="button" value="End game" />
+        <input id="restart" type="button" value="Restart game" />
+    </form>
+    <p id="output"> </p>
+</body>
+
+</html>
