@@ -15,4 +15,6 @@ Cheat: 'h' = add 100 health
 
 Tip: hide behind trees to avoid the enemy tank hitting you!
 
+; More content to be added later.
+
 Good luck!
